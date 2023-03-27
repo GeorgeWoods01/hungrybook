@@ -13,7 +13,14 @@ const DUMMY_DATA = [
     title: 'Fried Chicken',
     image: 'https://christieathome.com/wp-content/uploads/2020/10/Facetune_06-10-2020-15-37-58-scaled.jpg',
     description: 'Fry the chicken'
+  },
+  {
+    id: 'r3',
+    title: 'kongkugsu',
+    image: 'https://www.koreanbapsang.com/wp-content/uploads/2010/07/DSC_1715-e1536078152215.jpg',
+    description: 'make the soybean milk, add the noodles'
   }
+
 ];
 
 function App() {
