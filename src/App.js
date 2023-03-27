@@ -1,4 +1,5 @@
 import RecipeList from './components/recipes/RecipeList';
+import Layout from './components/layout/Layout'
 
 const DUMMY_DATA = [
 
@@ -25,8 +26,10 @@ const DUMMY_DATA = [
 
 function App() {
   return (
+    <>
+    <Layout />
       <RecipeList recipes={DUMMY_DATA} />
-
+      </>
   );
 }
 
